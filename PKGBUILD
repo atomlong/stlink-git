@@ -3,7 +3,7 @@ pkgname=stlink-git
 pkgrel=1
 pkgver=r1788.eeaef98
 pkgdesc="stm32 discovery line linux programmer."
-arch=('i686' 'x86_64')
+arch=('i686' 'x86_64' 'arm' 'armv6h' 'armv7h' 'aarch64')
 url="https://github.com/stlink-org/stlink"
 license=('custom')
 depends=('libusb>=1.0' 'pkg-config')
